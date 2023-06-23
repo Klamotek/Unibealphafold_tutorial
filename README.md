@@ -6,9 +6,13 @@ b.	password is the same as for your university account
 3.	Copy and paste those lines:
 
 mkdir main_colabfold
+
 cd main_colabfold/
+
 mkdir output
+
 mkdir input
+
 mkdir errors
 
 wget https://raw.githubusercontent.com/YoshitakaMo/localcolabfold/main/install_colabbatch_linux.sh
