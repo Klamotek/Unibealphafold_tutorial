@@ -10,14 +10,22 @@ cd main_colabfold/
 mkdir output
 mkdir input
 mkdir errors
+
 wget https://raw.githubusercontent.com/YoshitakaMo/localcolabfold/main/install_colabbatch_linux.sh
 bash install_colabbatch_linux.sh
+
 4.	Download job template (https://github.com/Klamotek/Unibecolabfold_tutorial)
+
 5.	Paste it in your main_colabfold folder
+
 6.	Copy and paste
 nano colabfold_temp.sh
+
 7.	Fill up all placeholders in the file
+
 8.	To close and save the file use Ctrl + O and Ctrl + X
+
 9.	If you change the name of the file use later your named file
+
 10.	To run prediction type 
 sbatch colabfold_temp.sh
