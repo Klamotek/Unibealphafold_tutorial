@@ -41,7 +41,7 @@ output_dir=<PATH_TO_OUTPUT_DIR>
 
 input=<PATH_TO_INPUT_DIR>
 
-# env (uncomment if you did not put it in .bashrc)
+# env (uncomment (del #) if you did not put it in .bashrc)
 #export PATH="<PATH_TO_DIR_COLABFOLD-CONDA>/colabfold-conda/bin:$PATH"
 
 # colab_fold start (to learn more about flags go to https://github.com/YoshitakaMo/localcolabfold)
