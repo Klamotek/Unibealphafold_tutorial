@@ -31,8 +31,8 @@ module load cuDNN/8.2.1.32-CUDA-11.3.1
 
 # INPUT (fasta_file) | OUTPUT_DIR 
 
-job_name=$(scontrol show job $SLURM_JOB_ID | awk -F= '/JobName/ {print $2}')
-job_name=$(echo $job_name | tr -d ' ')
+job_name=${SLURM_JOB_NAME#--job-name=}
+job_name=$(echo $job_name | tr -d '"')
 
 output_dir="<PATH_TO_OUTPUT_DIR>/$job_name"
 mkdir -p $output_dir
