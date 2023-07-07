@@ -42,6 +42,8 @@ nano colabfold_temp.sh
 
 8.	Fill up all placeholders in the file 
 
+!!! IMPORTANT !!! USE _ as space otherwise it could not work
+
 9.	To close and save the file use Ctrl + O and Ctrl + X
 
 10.	If you change the name of the file use later your named file
