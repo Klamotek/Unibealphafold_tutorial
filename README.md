@@ -10,7 +10,8 @@ b.	password is the same as for your university account
 
 3.	Copy and paste those lines:
 
-'''
+```
+
 mkdir main_colabfold
 
 cd main_colabfold/
@@ -24,7 +25,8 @@ mkdir errors
 wget https://raw.githubusercontent.com/YoshitakaMo/localcolabfold/main/install_colabbatch_linux.sh
 
 bash install_colabbatch_linux.sh
-'''
+
+```
 
 4.	Download job template (https://github.com/Klamotek/Unibecolabfold_tutorial)
 
@@ -34,9 +36,9 @@ bash install_colabbatch_linux.sh
 
 7.	Copy and paste
 
-'''
+```
 nano colabfold_temp.sh
-'''
+```
 
 8.	Fill up all placeholders in the file 
 
@@ -46,6 +48,6 @@ nano colabfold_temp.sh
 
 11.	To run prediction type:
 
-'''
+```
 sbatch colabfold_temp.sh
-'''
+```
