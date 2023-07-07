@@ -28,16 +28,18 @@ bash install_colabbatch_linux.sh
 
 5.	Paste it in your main_colabfold folder
 
-6.	Copy and paste
+6.  Paste protein sequence in input folder (protein's sequence has to be in fasta file, for multimer prediction separate sequences with ':')
+
+7.	Copy and paste
 
 nano colabfold_temp.sh
 
-7.	Fill up all placeholders in the file
+8.	Fill up all placeholders in the file 
 
-8.	To close and save the file use Ctrl + O and Ctrl + X
+9.	To close and save the file use Ctrl + O and Ctrl + X
 
-9.	If you change the name of the file use later your named file
+10.	If you change the name of the file use later your named file
 
-10.	To run prediction type 
+11.	To run prediction type:
 
 sbatch colabfold_temp.sh
