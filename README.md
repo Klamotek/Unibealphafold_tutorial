@@ -3,11 +3,11 @@
 1.	Download MobaXterm (https://mobaxterm.mobatek.net/download.html)
 
 2.	Login to Ubelix 
-
+```
 a.	ssh your_unibe_login@submit.unibe.ch
 
 b.	password is the same as for your university account 
-
+```
 3.	Copy and paste those lines:
 
 ```
