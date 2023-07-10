@@ -1,14 +1,27 @@
 ## Unibealphafold_tutorial
 
-1.	Download MobaXterm (https://mobaxterm.mobatek.net/download.html)
+Campus Account must be activated for UBELIX
 
-2.	Login to Ubelix 
+• If not yet, request activation 
 ```
-a.	ssh your_unibe_login@submit.unibe.ch
+https://serviceportal.unibe.ch/hpc
+```
 
-b.	password is the same as for your university account 
+1.	Download and install MobaXterm; choose Installer Edition
 ```
-3.	Copy and paste those lines:
+https://mobaxterm.mobatek.net/download.html
+```
+2.	Open MobaXterm to login to Ubelix 
+```
+a.	ssh campus_account@submit.unibe.ch
+
+b.	password is the same as for your university account
+
+c.  pass your password again in a pop-up window 
+
+```
+
+3.	Copy and paste those lines (!!! here you copy with a right click !!!):
 
 ```
 
@@ -28,9 +41,9 @@ bash install_colabbatch_linux.sh
 
 ```
 
-4.	Download job template (https://github.com/Klamotek/Unibecolabfold_tutorial)
+4.	Download the job template (https://github.com/Klamotek/Unibecolabfold_tutorial)
 
-5.	Paste it in your main_colabfold folder
+5.	Paste it into your main_colabfold folder
 
 6.  Paste protein sequence in input folder (protein's sequence has to be in fasta file, for multimer prediction separate sequences with ':')
 
