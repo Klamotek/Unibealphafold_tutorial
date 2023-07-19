@@ -1,4 +1,6 @@
-## Unibealphafold_tutorial
+### Unibealphafold_tutorial
+
+## Instalation and 1st run
 
 Campus Account must be activated for UBELIX
 
@@ -55,14 +57,30 @@ nano colabfold_temp.sh
 
 8.	Fill up all placeholders in the file 
 
-!!! IMPORTANT !!! USE _ as space otherwise it could not work
+!!! IMPORTANT !!! USE _ as space, otherwise it could not work
 
-9.	To close and save the file use Ctrl + O and Ctrl + X
+9.	To close and save the file, use Ctrl + O and Ctrl + X
 
-10.	If you change the name of the file use later your named file
+10.	If you change the name of the file, use later your named file
 
 11.	To run prediction type:
 
+```
+sbatch colabfold_temp.sh
+```
+## Next run 
+
+1. Go to the ColabFold folder
+```
+cd main_colabfold/
+```
+2. Edit your job template
+
+Adjust TIME, MEM-PER-CPU, GRES and INPUT according to the instructions in the template
+
+The input file has to end with .fasta otherwise the job will be not submitted 
+
+3. Run prediction (!!! If you changed the name of your job file remember to use your changed job file name !!!)
 ```
 sbatch colabfold_temp.sh
 ```
